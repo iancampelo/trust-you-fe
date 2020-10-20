@@ -1,0 +1,101 @@
+.review-card {
+  padding: 20px !important;
+  margin: 33px 0 !important;
+  border-radius: 16px;
+  background-color: #fff;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+table {
+  width: 100%;
+}
+
+td {
+ max-width: 0;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ white-space: nowrap;
+}
+
+th, td {
+  font-weight: unset;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.column1 {
+  width: 23%;
+}
+
+.column2 {
+  width: 13%;
+}
+
+.column3 {
+  width: 22%;
+}
+
+.column4 {
+  width: 19%;
+}
+
+.column5 {
+  width: 13%;
+}
+
+.table-head th {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.table-body td {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.table {
+  position: relative;
+  padding-top: 60px;
+}
+
+.table-head {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.table-body {
+  max-height: 585px;
+  overflow: auto;
+}
+
+
+.table.ver1 th {
+  font-family: Lato-Bold;
+  font-size: 18px;
+  color: #fff;
+  background-color: #6c7ae0;
+}
+
+.table.ver1 td {
+  font-family: Lato-Regular;
+  font-size: 15px;
+  color: #808080;
+  line-height: 1.4;
+}
+
+.table.ver1 .table-body tr {
+  cursor: pointer;
+}
+
+.table.ver1 .table-body tr:nth-child(even) {
+  background-color: #f8f6ff;
+}
+
+.table.ver1 {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  margin-bottom: 30px;
+}
